@@ -1,3 +1,8 @@
 ## server-static
 
-## 静态服务器
+```bash
+
+# 启动
+node server-static.js
+
+```
