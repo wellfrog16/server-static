@@ -3,6 +3,6 @@
 ```bash
 
 # 启动
-node server-static.js
+node app.js
 
 ```
