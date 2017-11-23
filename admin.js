@@ -1,9 +1,9 @@
 var static = require('node-static');
 
 //
-// Create a node-static server instance to serve the '/usr/local/src/www' folder
+// Create a node-static server instance to serve the '/usr/local/src/admin' folder
 //
-var file = new static.Server('/usr/local/src/www');
+var file = new static.Server('/usr/local/src/admin');
 
 require('http').createServer(function (request, response) {
    request.addListener('end', function () {
@@ -12,4 +12,4 @@ require('http').createServer(function (request, response) {
        //
        file.serve(request, response);
    }).resume();
-}).listen(8080);
+}).listen(8000);
